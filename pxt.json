@@ -1,0 +1,31 @@
+{
+    "name": "Quiet",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "scrollbit": "github:pimoroni/pxt-scrollbit#v0.0.7",
+        "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.15",
+        "tag": "v6.0.15",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/82f37ac905dec4a3e7d92353d97398abab77d1ba",
+        "target": "6.0.15",
+        "pxt": "9.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
